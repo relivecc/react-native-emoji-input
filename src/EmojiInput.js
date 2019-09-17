@@ -420,7 +420,7 @@ class EmojiInput extends React.PureComponent {
                         data={data}
                         size={emojiFontSize}
                         selected={
-                            selectedEmoji &&
+                            !!selectedEmoji &&
                             selectedEmoji === data.lib.unified
                         }
                     />
