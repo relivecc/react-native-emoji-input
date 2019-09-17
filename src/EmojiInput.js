@@ -30,6 +30,8 @@ const {
     emojiLib,
 } = require('./emoji-data/compiled');
 
+const CONTAINER_HORIZONTAL_PADDING = 5;
+
 const categoryIcon = {
     fue: props => (
         <Text style={styles.categoryTabEmoji} {...props}>
@@ -185,7 +187,9 @@ class EmojiInput extends React.PureComponent {
                         dim.width = props.width;
                         break;
                     case ViewTypes.EMOJI:
-                        dim.height = dim.width = this.emojiSize;
+                        dim.height = dim.width =
+                        this.emojiSize -
+                        (CONTAINER_HORIZONTAL_PADDING * 2) / this.props.numColumns;
                         break;
                 }
             }
@@ -393,14 +397,16 @@ class EmojiInput extends React.PureComponent {
         });
     };
 
-    _rowRenderer(type, data) {
+    _rowRenderer(type, data)  {
+        const { selectedEmoji, emojiFontSize, categoryLabelTextStyle } = this.props;
+
         switch (type) {
             case ViewTypes.CATEGORY:
                 return (
                     <Text
                         style={[
                             styles.categoryText,
-                            { ...this.props.categoryLabelTextStyle }
+                            { ...categoryLabelTextStyle }
                         ]}
                     >
                         {data.title}
@@ -412,7 +418,11 @@ class EmojiInput extends React.PureComponent {
                         onPress={this.handleEmojiPress}
                         onLongPress={this.handleEmojiLongPress}
                         data={data}
-                        size={this.props.emojiFontSize}
+                        size={emojiFontSize}
+                        selected={
+                            selectedEmoji &&
+                            selectedEmoji === data.lib.unified
+                        }
                     />
                 );
         }
@@ -684,7 +694,8 @@ EmojiInput.propTypes = {
     defaultFrequentlyUsedEmoji: PropTypes.arrayOf(PropTypes.string),
     resetSearch: PropTypes.bool,
     filterFunctions: PropTypes.arrayOf(PropTypes.func),
-    renderAheadOffset: PropTypes.number
+    renderAheadOffset: PropTypes.number,
+    selectedEmoji: PropTypes.string,
 };
 
 const styles = {
@@ -752,7 +763,10 @@ const styles = {
         position: "absolute",
         backgroundColor: "#00AAE5",
     },
-    recyclerListView: { // Fix RecyclerListView error 
+    recyclerListView: { 
+        paddingHorizontal: CONTAINER_HORIZONTAL_PADDING,
+
+        // Fix RecyclerListView error 
         minWidth: 1, 
         minHeight: 1, 
         flex: 1

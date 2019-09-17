@@ -20,6 +20,7 @@ interface Props {
     onCategoryPress?: (category: string) => void;
     enableSearch?: boolean;
     renderAheadOffset?: number;
+    selectedEmoji?: string;
 }
 
 export default class EmojiInput extends React.Component<Props> { }

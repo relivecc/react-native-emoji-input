@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { View, Text, TouchableOpacity, StyleSheet, Image } from 'react-native';
+import { View, Text, TouchableOpacity, StyleSheet, Image, Platform } from 'react-native';
 import _ from 'lodash';
 
 const EMOJI_DATASOURCE_VERSION = '4.0.4';
@@ -16,7 +16,8 @@ class Emoji extends React.PureComponent {
         native: PropTypes.bool,
         size: PropTypes.number,
         style: PropTypes.object,
-        labelStyle: PropTypes.object
+		labelStyle: PropTypes.object,
+		selected: PropTypes.boolean
     };
 
     static defaultProps = {
@@ -43,7 +44,8 @@ class Emoji extends React.PureComponent {
             labelStyle,
             data,
             onPress,
-            onLongPress
+			onLongPress, 
+			selected
         } = this.props;
 
         if (!native) {
@@ -87,7 +89,16 @@ class Emoji extends React.PureComponent {
 
         return onPress || onLongPress ? (
             <TouchableOpacity
-                style={styles.emojiWrapper}
+                style={[
+					styles.emojiWrapper, 
+					selected && {
+            			backgroundColor: "#d4e6eb",
+            			borderWidth: 1,
+            			borderRadius: this.props.size,
+            			borderColor: "#00ACEB",
+            			paddingBottom: Platform.OS === "android" && 2.5
+          			}
+				]}
                 onPress={evt => {
                     onPress && onPress(data, evt);
                 }}
