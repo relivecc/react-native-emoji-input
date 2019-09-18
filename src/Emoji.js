@@ -17,7 +17,7 @@ class Emoji extends React.PureComponent {
         size: PropTypes.number,
         style: PropTypes.object,
 		labelStyle: PropTypes.object,
-		selected: PropTypes.boolean
+		selected: PropTypes.bool
     };
 
     static defaultProps = {
