@@ -32,51 +32,296 @@ const {
 
 const CONTAINER_HORIZONTAL_PADDING = 5;
 
+// TODO: Design icons
 const categoryIcon = {
     fue: props => (
-        <Text style={styles.categoryTabEmoji} {...props}>
-            🕘
-        </Text>
+        <Emoji
+            onPress={props.onPress}
+            onLongPress={() => undefined}
+            data={{
+                name: "CLOCK FACE THREE OCLOCK",
+                unified: "1F552",
+                non_qualified: null,
+                docomo: "E6BA",
+                au: "E594",
+                softbank: "E026",
+                google: "FE020",
+                image: "1f552.png",
+                sheet_x: 28,
+                sheet_y: 41,
+                short_name: "clock3",
+                short_names: ["clock3"],
+                text: null,
+                texts: null,
+                category: "Travel & Places",
+                sort_order: 140,
+                added_in: "6.0",
+                has_img_apple: true,
+                has_img_google: true,
+                has_img_twitter: true,
+                has_img_facebook: true,
+                has_img_messenger: true,
+            }}
+            size={12}
+            selected={false}
+        />
     ),
+    
     people: props => (
-        <Text style={styles.categoryTabEmoji} {...props}>
-            😊
-        </Text>
+        <Emoji
+            onPress={props.onPress}
+            onLongPress={() => undefined}
+            data={{
+                "name": "SMILING FACE WITH SMILING EYES",
+                "unified": "1F60A",
+                "non_qualified": null,
+                "docomo": "E6F0",
+                "au": "EACD",
+                "softbank": "E056",
+                "google": "FE335",
+                "image": "1f60a.png",
+                "sheet_x": 31,
+                "sheet_y": 0,
+                "short_name": "blush",
+                "short_names": ["blush"],
+                "text": ":)",
+                "texts": null,
+                "category": "Smileys & People",
+                "sort_order": 10,
+                "added_in": "6.0",
+                "has_img_apple": true,
+                "has_img_google": true,
+                "has_img_twitter": true,
+                "has_img_facebook": true,
+                "has_img_messenger": true
+            }}
+            size={12}
+            selected={false}
+        />
     ),
     animals_and_nature: props => (
-        <Text style={styles.categoryTabEmoji} {...props}>
-            🦄
-        </Text>
+        <Emoji
+            onPress={props.onPress}
+            onLongPress={() => undefined}
+            data={{
+                "name": "UNICORN FACE",
+                "unified": "1F984",
+                "non_qualified": null,
+                "docomo": null,
+                "au": null,
+                "softbank": null,
+                "google": null,
+                "image": "1f984.png",
+                "sheet_x": 43,
+                "sheet_y": 0,
+                "short_name": "unicorn_face",
+                "short_names": ["unicorn_face"],
+                "text": null,
+                "texts": null,
+                "category": "Animals & Nature",
+                "sort_order": 18,
+                "added_in": "8.0",
+                "has_img_apple": true,
+                "has_img_google": true,
+                "has_img_twitter": true,
+                "has_img_facebook": true,
+                "has_img_messenger": false
+            }}
+            size={12}
+            selected={false}
+        />
     ),
     food_and_drink: props => (
-        <Text style={styles.categoryTabEmoji} {...props}>
-            🍔
-        </Text>
+        <Emoji
+            onPress={props.onPress}
+            onLongPress={() => undefined}
+            data={{
+                "name": "HAMBURGER",
+                "unified": "1F354",
+                "non_qualified": null,
+                "docomo": "E673",
+                "au": "E4D6",
+                "softbank": "E120",
+                "google": "FE960",
+                "image": "1f354.png",
+                "sheet_x": 7,
+                "sheet_y": 15,
+                "short_name": "hamburger",
+                "short_names": ["hamburger"],
+                "text": null,
+                "texts": null,
+                "category": "Food & Drink",
+                "sort_order": 41,
+                "added_in": "6.0",
+                "has_img_apple": true,
+                "has_img_google": true,
+                "has_img_twitter": true,
+                "has_img_facebook": true,
+                "has_img_messenger": true
+            }}
+            size={12}
+            selected={false}
+        />
     ),
     activity: props => (
-        <Text style={styles.categoryTabEmoji} {...props}>
-            ⚾️
-        </Text>
+       <Emoji
+            onPress={props.onPress}
+            onLongPress={() => undefined}
+            data={{
+                "name": "BASEBALL",
+                "unified": "26BE",
+                "non_qualified": null,
+                "docomo": "E653",
+                "au": "E4BA",
+                "softbank": "E016",
+                "google": "FE7D1",
+                "image": "26be.png",
+                "sheet_x": 50,
+                "sheet_y": 18,
+                "short_name": "baseball",
+                "short_names": ["baseball"],
+                "text": null,
+                "texts": null,
+                "category": "Activities",
+                "sort_order": 29,
+                "added_in": "5.2",
+                "has_img_apple": true,
+                "has_img_google": true,
+                "has_img_twitter": true,
+                "has_img_facebook": true,
+                "has_img_messenger": true
+            }}
+            size={12}
+            selected={false}
+        />
     ),
     travel_and_places: props => (
-        <Text style={styles.categoryTabEmoji} {...props}>
-            ✈️
-        </Text>
+       <Emoji
+            onPress={props.onPress}
+            onLongPress={() => undefined}
+            data={{
+                "name": "AIRPLANE",
+                "unified": "2708-FE0F",
+                "non_qualified": "2708",
+                "docomo": "E662",
+                "au": "E4B3",
+                "softbank": "E01D",
+                "google": "FE7E9",
+                "image": "2708-fe0f.png",
+                "sheet_x": 51,
+                "sheet_y": 6,
+                "short_name": "airplane",
+                "short_names": ["airplane"],
+                "text": null,
+                "texts": null,
+                "category": "Travel & Places",
+                "sort_order": 113,
+                "added_in": "1.1",
+                "has_img_apple": true,
+                "has_img_google": true,
+                "has_img_twitter": true,
+                "has_img_facebook": true,
+                "has_img_messenger": true
+            }}
+            size={12}
+            selected={false}
+        />
     ),
     objects: props => (
-        <Text style={styles.categoryTabEmoji} {...props}>
-            💡
-        </Text>
+        <Emoji
+            onPress={props.onPress}
+            onLongPress={() => undefined}
+            data={{
+                "name": "ELECTRIC LIGHT BULB",
+                "unified": "1F4A1",
+                "non_qualified": null,
+                "docomo": "E6FB",
+                "au": "E476",
+                "softbank": "E10F",
+                "google": "FEB56",
+                "image": "1f4a1.png",
+                "sheet_x": 25,
+                "sheet_y": 31,
+                "short_name": "bulb",
+                "short_names": ["bulb"],
+                "text": null,
+                "texts": null,
+                "category": "Objects",
+                "sort_order": 56,
+                "added_in": "6.0",
+                "has_img_apple": true,
+                "has_img_google": true,
+                "has_img_twitter": true,
+                "has_img_facebook": true,
+                "has_img_messenger": true
+            }}
+            size={12}
+            selected={false}
+        />
     ),
     symbols: props => (
-        <Text style={styles.categoryTabEmoji} {...props}>
-            🔣
-        </Text>
+        <Emoji
+            onPress={props.onPress}
+            onLongPress={() => undefined}
+            data={{
+                "name": "INPUT SYMBOL FOR SYMBOLS",
+                "unified": "1F523",
+                "non_qualified": null,
+                "docomo": null,
+                "au": "EB00",
+                "softbank": null,
+                "google": "FEB7F",
+                "image": "1f523.png",
+                "sheet_x": 28,
+                "sheet_y": 6,
+                "short_name": "symbols",
+                "short_names": ["symbols"],
+                "text": null,
+                "texts": null,
+                "category": "Symbols",
+                "sort_order": 149,
+                "added_in": "6.0",
+                "has_img_apple": true,
+                "has_img_google": true,
+                "has_img_twitter": true,
+                "has_img_facebook": true,
+                "has_img_messenger": true
+            }}
+            size={12}
+            selected={false}
+        />
     ),
     flags: props => (
-        <Text style={styles.categoryTabEmoji} {...props}>
-            🏳️
-        </Text>
+        <Emoji
+            onPress={props.onPress}
+            onLongPress={() => undefined}
+            data={{
+                "name": null,
+                "unified": "1F3F3-FE0F",
+                "non_qualified": "1F3F3",
+                "docomo": null,
+                "au": null,
+                "softbank": null,
+                "google": null,
+                "image": "1f3f3-fe0f.png",
+                "sheet_x": 12,
+                "sheet_y": 3,
+                "short_name": "waving_white_flag",
+                "short_names": ["waving_white_flag"],
+                "text": null,
+                "texts": null,
+                "category": "Flags",
+                "sort_order": 5,
+                "added_in": "7.0",
+                "has_img_apple": true,
+                "has_img_google": true,
+                "has_img_twitter": true,
+                "has_img_facebook": true,
+                "has_img_messenger": false
+            }}
+            size={12}
+            selected={false}
+        />
     ),
 };
 
@@ -562,6 +807,7 @@ class EmojiInput extends React.PureComponent {
                                             <View>
                                                 {categoryIcon[key]({
                                                     size: this.props.categoryFontSize,
+                                                    onPress: () => this.handleCategoryPress(key)
                                                 })}
                                             </View>
                                             {/* Active category indicator */}
