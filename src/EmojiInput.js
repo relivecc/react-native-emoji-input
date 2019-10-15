@@ -7,7 +7,8 @@ import {
     Dimensions,
     TouchableOpacity,
     TouchableWithoutFeedback,
-    AsyncStorage
+    AsyncStorage,
+    Image
 } from 'react-native';
 import {
     RecyclerListView,
