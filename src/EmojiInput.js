@@ -433,6 +433,7 @@ class EmojiInput extends React.PureComponent {
                             !!selectedEmoji &&
                             selectedEmoji === data.lib.unified
                         }
+                        selectedBorderWidth={this.emojiSize}
                     />
                 );
         }
@@ -442,7 +443,7 @@ class EmojiInput extends React.PureComponent {
         this.props.onCategoryPress(key);
         this._recyclerListView.scrollToOffset(
             0,
-            category[categoryIndexMap[key].idx].y + 1,
+            category[categoryIndexMap[key].idx].y,
             false
         );
     };

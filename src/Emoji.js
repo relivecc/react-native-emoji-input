@@ -17,7 +17,8 @@ class Emoji extends React.PureComponent {
         size: PropTypes.number,
         style: PropTypes.object,
 		labelStyle: PropTypes.object,
-		selected: PropTypes.bool
+        selected: PropTypes.bool,
+        selectedBorderWidth: PropTypes.number,
     };
 
     static defaultProps = {
@@ -94,7 +95,7 @@ class Emoji extends React.PureComponent {
 					selected && {
             			backgroundColor: "#d4e6eb",
             			borderWidth: 1,
-            			borderRadius: this.props.size,
+            			borderRadius: this.props.selectedBorderWidth ? this.props.selectedBorderWidth : this.props.size,
             			borderColor: "#00ACEB",
             			paddingBottom: Platform.OS === "android" && 2.5
           			}
