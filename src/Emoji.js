@@ -87,31 +87,40 @@ class Emoji extends React.PureComponent {
                 )}
             </View>
         );
-
-        return onPress || onLongPress ? (
-            <TouchableOpacity
-                style={[
-					styles.emojiWrapper, 
-					selected && {
-            			backgroundColor: "#d4e6eb",
-            			borderWidth: 1,
-            			borderRadius: this.props.selectedBorderWidth ? this.props.selectedBorderWidth : this.props.size,
-            			borderColor: "#00ACEB",
-            			paddingBottom: Platform.OS === "android" && 2.5
-          			}
-				]}
-                onPress={evt => {
-                    onPress && onPress(data, evt);
-                }}
-                onLongPress={evt => {
-                    onLongPress && onLongPress(data, evt);
-                }}
-            >
-                {emojiComponent}
-            </TouchableOpacity>
-        ) : (
-            emojiComponent
-        );
+        const selectedBorderWidth = this.props.selectedBorderWidth
+            ? 0.75 * this.props.selectedBorderWidth
+            : this.props.size;
+            return onPress || onLongPress ? (
+                <TouchableOpacity
+                    style={[styles.emojiWrapper]}
+                    onPress={evt => {
+                        onPress && onPress(data, evt);
+                    }}
+                    onLongPress={evt => {
+                        onLongPress && onLongPress(data, evt);
+                    }}
+                >
+                    {selected ? (
+                        <View
+                            style={{
+                                backgroundColor: "#d4e6eb",
+                                borderWidth: 1,
+                                width: selectedBorderWidth,
+                                height: selectedBorderWidth,
+                                borderRadius: selectedBorderWidth / 2,
+                                borderColor: "#00ACEB",
+                                paddingBottom: Platform.OS === "android" && 2.5,
+                            }}
+                        >
+                            {emojiComponent}
+                        </View>
+                    ) : (
+                        emojiComponent
+                    )}
+                </TouchableOpacity>
+            ) : (
+                emojiComponent
+            );
     }
 }
 
