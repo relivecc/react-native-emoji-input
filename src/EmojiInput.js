@@ -433,6 +433,7 @@ class EmojiInput extends React.PureComponent {
                             !!selectedEmoji &&
                             selectedEmoji === data.lib.unified
                         }
+                        selectedBorderWidth={this.emojiSize}
                     />
                 );
         }
