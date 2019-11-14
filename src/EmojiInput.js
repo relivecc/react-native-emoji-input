@@ -347,23 +347,19 @@ class EmojiInput extends React.PureComponent {
                     tempEmoji[categoryIndexMap[e.category].idx].push(e);
                 }
             });
-        let accurateY = 0;
         let lastCount = 0;
         let s = 0;
+        let rows = 0;
+        const size = this.emojiSize - (CONTAINER_HORIZONTAL_PADDING / this.props.numColumns);
         _(tempEmoji).each(v => {
             let idx = categoryIndexMap[v[0].key].idx;
             let c = category[idx];
-
             c.idx = s;
-            s = s + lastCount;
-
-            c.y =
-                _.ceil(lastCount / this.props.numColumns) * this.emojiSize +
-                accurateY;
-            accurateY =
-                c.y + (_.size(v) === 1 ? 0 : this.props.categoryLabelHeight);
-
-            lastCount = _.size(v) - 1;
+            s += lastCount;
+            rows += _.ceil(lastCount / this.props.numColumns);
+            const labelOffset = lastCount < 1 ? 0 : this.props.categoryLabelHeight;
+            c.y =  rows * size + labelOffset;
+            lastCount = v.length - 1; // -1 because one of the items in the array is the category marker itself 
         });
         this.emoji = _(tempEmoji)
             .filter(c => c.length > 1)
@@ -443,7 +439,7 @@ class EmojiInput extends React.PureComponent {
         this.props.onCategoryPress(key);
         this._recyclerListView.scrollToOffset(
             0,
-            category[categoryIndexMap[key].idx].y,
+            category[categoryIndexMap[key].idx].y + 1,
             false
         );
     };
