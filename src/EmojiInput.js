@@ -359,7 +359,7 @@ class EmojiInput extends React.PureComponent {
             rows += _.ceil(lastCount / this.props.numColumns);
             const labelOffset = lastCount < 1 ? 0 : this.props.categoryLabelHeight;
             c.y =  rows * size + labelOffset;
-            lastCount = v.length - 1;           
+            lastCount = v.length - 1; // -1 because one of the items in the array is the category marker itself 
         });
         this.emoji = _(tempEmoji)
             .filter(c => c.length > 1)
