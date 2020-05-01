@@ -499,11 +499,12 @@ class EmojiInput extends React.PureComponent {
                             paddingLeft: 15,
                             borderRadius: 7.5,
                             margin: 10,
+                            color: "#727171" // dark grey
                         }}
                         returnKeyType={'search'}
                         clearButtonMode={'always'}
                         placeholder={'Search emoji'}
-                        autoCorrect={false}
+                        autoCorrect={true}
                         onChangeText={text => {
                             this.setState({
                                 searchQuery: text
