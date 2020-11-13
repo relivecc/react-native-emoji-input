@@ -31,8 +31,8 @@
     },
     "homepage": "https://github.com/sskhandek/react-native-emoji-input#readme",
     "dependencies": {
-        "emoji-datasource": "^4.0.4",
-        "emoji-datasource-apple": "^4.0.4",
+        "emoji-datasource": "^6.0.0",
+        "emoji-datasource-apple": "^6.0.0",
         "eslint-plugin-react": "^7.8.2",
         "fuse.js": "^3.4.4",
         "lodash": "^4.17.5",
