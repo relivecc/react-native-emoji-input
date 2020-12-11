@@ -34,6 +34,7 @@ module.exports = {
       char: "\ud83d\udcaf",
       key: "100",
       keywords: ["100", "HUNDRED POINTS SYMBOL"],
+      category: "people",
       lib: {
         name: "HUNDRED POINTS SYMBOL",
         unified: "1F4AF",
@@ -412,6 +413,7 @@ module.exports = {
       char: "\ud83d\ude00",
       key: "grinning",
       keywords: ["grinning", "GRINNING FACE"],
+      category: "people",
       lib: {
         name: "GRINNING FACE",
         unified: "1F600",
@@ -613,6 +615,7 @@ module.exports = {
       char: "\ud83d\ude03",
       key: "smiley",
       keywords: ["smiley", "SMILING FACE WITH OPEN MOUTH"],
+      category: "people",
       lib: {
         name: "SMILING FACE WITH OPEN MOUTH",
         unified: "1F603",
@@ -1026,6 +1029,7 @@ module.exports = {
       char: "\ud83d\ude04",
       key: "smile",
       keywords: ["smile", "SMILING FACE WITH OPEN MOUTH AND SMILING EYES"],
+      category: "people",
       lib: {
         name: "SMILING FACE WITH OPEN MOUTH AND SMILING EYES",
         unified: "1F604",
@@ -1285,6 +1289,7 @@ module.exports = {
       char: "\ud83d\ude01",
       key: "grin",
       keywords: ["grin", "GRINNING FACE WITH SMILING EYES"],
+      category: "people",
       lib: {
         name: "GRINNING FACE WITH SMILING EYES",
         unified: "1F601",
@@ -1730,6 +1735,7 @@ module.exports = {
         "laughing",
         "SMILING FACE WITH OPEN MOUTH AND TIGHTLY-CLOSED EYES",
       ],
+      category: "people",
       lib: {
         name: "SMILING FACE WITH OPEN MOUTH AND TIGHTLY-CLOSED EYES",
         unified: "1F606",
@@ -2080,6 +2086,7 @@ module.exports = {
       char: "\ud83d\ude05",
       key: "sweat_smile",
       keywords: ["sweat_smile", "SMILING FACE WITH OPEN MOUTH AND COLD SWEAT"],
+      category: "people",
       lib: {
         name: "SMILING FACE WITH OPEN MOUTH AND COLD SWEAT",
         unified: "1F605",
@@ -2404,6 +2411,7 @@ module.exports = {
         "rolling_on_the_floor_laughing",
         "ROLLING ON THE FLOOR LAUGHING",
       ],
+      category: "people",
       lib: {
         name: "ROLLING ON THE FLOOR LAUGHING",
         unified: "1F923",
@@ -2635,6 +2643,7 @@ module.exports = {
       char: "\ud83d\ude02",
       key: "joy",
       keywords: ["joy", "FACE WITH TEARS OF JOY"],
+      category: "people",
       lib: {
         name: "FACE WITH TEARS OF JOY",
         unified: "1F602",
@@ -2927,6 +2936,7 @@ module.exports = {
       char: "\ud83d\ude42",
       key: "slightly_smiling_face",
       keywords: ["slightly_smiling_face", "SLIGHTLY SMILING FACE"],
+      category: "people",
       lib: {
         name: "SLIGHTLY SMILING FACE",
         unified: "1F642",
@@ -3277,6 +3287,7 @@ module.exports = {
       char: "\ud83d\ude43",
       key: "upside_down_face",
       keywords: ["upside_down_face", "UPSIDE-DOWN FACE"],
+      category: "people",
       lib: {
         name: "UPSIDE-DOWN FACE",
         unified: "1F643",
@@ -3575,6 +3586,7 @@ module.exports = {
       char: "\ud83d\ude09",
       key: "wink",
       keywords: ["wink", "WINKING FACE"],
+      category: "people",
       lib: {
         name: "WINKING FACE",
         unified: "1F609",
@@ -3896,6 +3908,7 @@ module.exports = {
       char: "\ud83d\ude0a",
       key: "blush",
       keywords: ["blush", "SMILING FACE WITH SMILING EYES"],
+      category: "people",
       lib: {
         name: "SMILING FACE WITH SMILING EYES",
         unified: "1F60A",
@@ -4275,6 +4288,7 @@ module.exports = {
       char: "\ud83d\ude07",
       key: "innocent",
       keywords: ["innocent", "SMILING FACE WITH HALO"],
+      category: "people",
       lib: {
         name: "SMILING FACE WITH HALO",
         unified: "1F607",
@@ -4689,6 +4703,7 @@ module.exports = {
         "smiling_face_with_3_hearts",
         "SMILING FACE WITH SMILING EYES AND THREE HEARTS",
       ],
+      category: "people",
       lib: {
         name: "SMILING FACE WITH SMILING EYES AND THREE HEARTS",
         unified: "1F970",
@@ -4952,6 +4967,7 @@ module.exports = {
       char: "\ud83d\ude0d",
       key: "heart_eyes",
       keywords: ["heart_eyes", "SMILING FACE WITH HEART-SHAPED EYES"],
+      category: "people",
       lib: {
         name: "SMILING FACE WITH HEART-SHAPED EYES",
         unified: "1F60D",
@@ -5215,6 +5231,7 @@ module.exports = {
       char: "\ud83e\udd29",
       key: "star-struck",
       keywords: ["star-struck", "GRINNING FACE WITH STAR EYES"],
+      category: "people",
       lib: {
         name: "GRINNING FACE WITH STAR EYES",
         unified: "1F929",
@@ -5626,6 +5643,7 @@ module.exports = {
       char: "\ud83d\ude18",
       key: "kissing_heart",
       keywords: ["kissing_heart", "FACE THROWING A KISS"],
+      category: "people",
       lib: {
         name: "FACE THROWING A KISS",
         unified: "1F618",
@@ -5918,6 +5936,7 @@ module.exports = {
       char: "\ud83d\ude17",
       key: "kissing",
       keywords: ["kissing", "KISSING FACE"],
+      category: "people",
       lib: {
         name: "KISSING FACE",
         unified: "1F617",
@@ -6326,6 +6345,7 @@ module.exports = {
       char: "\u263a\ufe0f",
       key: "relaxed",
       keywords: ["relaxed", "WHITE SMILING FACE"],
+      category: "people",
       lib: {
         name: "WHITE SMILING FACE",
         unified: "263A-FE0F",
@@ -6560,6 +6580,7 @@ module.exports = {
       char: "\ud83d\ude1a",
       key: "kissing_closed_eyes",
       keywords: ["kissing_closed_eyes", "KISSING FACE WITH CLOSED EYES"],
+      category: "people",
       lib: {
         name: "KISSING FACE WITH CLOSED EYES",
         unified: "1F61A",
@@ -6910,6 +6931,7 @@ module.exports = {
       char: "\ud83d\ude19",
       key: "kissing_smiling_eyes",
       keywords: ["kissing_smiling_eyes", "KISSING FACE WITH SMILING EYES"],
+      category: "people",
       lib: {
         name: "KISSING FACE WITH SMILING EYES",
         unified: "1F619",
@@ -7141,6 +7163,7 @@ module.exports = {
       char: "\ud83e\udd72",
       key: "smiling_face_with_tear",
       keywords: ["smiling_face_with_tear", "SMILING FACE WITH TEAR"],
+      category: "people",
       lib: {
         name: "SMILING FACE WITH TEAR",
         unified: "1F972",
@@ -7523,6 +7546,7 @@ module.exports = {
       char: "\ud83d\ude0b",
       key: "yum",
       keywords: ["yum", "FACE SAVOURING DELICIOUS FOOD"],
+      category: "people",
       lib: {
         name: "FACE SAVOURING DELICIOUS FOOD",
         unified: "1F60B",
@@ -7783,6 +7807,7 @@ module.exports = {
       char: "\ud83d\ude1b",
       key: "stuck_out_tongue",
       keywords: ["stuck_out_tongue", "FACE WITH STUCK-OUT TONGUE"],
+      category: "people",
       lib: {
         name: "FACE WITH STUCK-OUT TONGUE",
         unified: "1F61B",
@@ -8078,6 +8103,7 @@ module.exports = {
         "stuck_out_tongue_winking_eye",
         "FACE WITH STUCK-OUT TONGUE AND WINKING EYE",
       ],
+      category: "people",
       lib: {
         name: "FACE WITH STUCK-OUT TONGUE AND WINKING EYE",
         unified: "1F61C",
@@ -8460,6 +8486,7 @@ module.exports = {
       char: "\ud83e\udd2a",
       key: "zany_face",
       keywords: ["zany_face", "GRINNING FACE WITH ONE LARGE AND ONE SMALL EYE"],
+      category: "people",
       lib: {
         name: "GRINNING FACE WITH ONE LARGE AND ONE SMALL EYE",
         unified: "1F92A",
@@ -8726,6 +8753,7 @@ module.exports = {
         "stuck_out_tongue_closed_eyes",
         "FACE WITH STUCK-OUT TONGUE AND TIGHTLY-CLOSED EYES",
       ],
+      category: "people",
       lib: {
         name: "FACE WITH STUCK-OUT TONGUE AND TIGHTLY-CLOSED EYES",
         unified: "1F61D",
@@ -9137,6 +9165,7 @@ module.exports = {
       char: "\ud83e\udd11",
       key: "money_mouth_face",
       keywords: ["money_mouth_face", "MONEY-MOUTH FACE"],
+      category: "people",
       lib: {
         name: "MONEY-MOUTH FACE",
         unified: "1F911",
@@ -9339,6 +9368,7 @@ module.exports = {
       char: "\ud83e\udd17",
       key: "hugging_face",
       keywords: ["hugging_face", "HUGGING FACE"],
+      category: "people",
       lib: {
         name: "HUGGING FACE",
         unified: "1F917",
@@ -9691,6 +9721,7 @@ module.exports = {
         "face_with_hand_over_mouth",
         "SMILING FACE WITH SMILING EYES AND HAND COVERING MOUTH",
       ],
+      category: "people",
       lib: {
         name: "SMILING FACE WITH SMILING EYES AND HAND COVERING MOUTH",
         unified: "1F92D",
@@ -10073,6 +10104,7 @@ module.exports = {
       char: "\ud83e\udd2b",
       key: "shushing_face",
       keywords: ["shushing_face", "FACE WITH FINGER COVERING CLOSED LIPS"],
+      category: "people",
       lib: {
         name: "FACE WITH FINGER COVERING CLOSED LIPS",
         unified: "1F92B",
@@ -10333,6 +10365,7 @@ module.exports = {
       char: "\ud83e\udd14",
       key: "thinking_face",
       keywords: ["thinking_face", "THINKING FACE"],
+      category: "people",
       lib: {
         name: "THINKING FACE",
         unified: "1F914",
@@ -10686,6 +10719,7 @@ module.exports = {
       char: "\ud83e\udd10",
       key: "zipper_mouth_face",
       keywords: ["zipper_mouth_face", "ZIPPER-MOUTH FACE"],
+      category: "people",
       lib: {
         name: "ZIPPER-MOUTH FACE",
         unified: "1F910",
@@ -10975,6 +11009,7 @@ module.exports = {
       char: "\ud83e\udd28",
       key: "face_with_raised_eyebrow",
       keywords: ["face_with_raised_eyebrow", "FACE WITH ONE EYEBROW RAISED"],
+      category: "people",
       lib: {
         name: "FACE WITH ONE EYEBROW RAISED",
         unified: "1F928",
@@ -11389,6 +11424,7 @@ module.exports = {
       char: "\ud83d\ude10",
       key: "neutral_face",
       keywords: ["neutral_face", "NEUTRAL FACE"],
+      category: "people",
       lib: {
         name: "NEUTRAL FACE",
         unified: "1F610",
@@ -11562,6 +11598,7 @@ module.exports = {
       char: "\ud83d\ude11",
       key: "expressionless",
       keywords: ["expressionless", "EXPRESSIONLESS FACE"],
+      category: "people",
       lib: {
         name: "EXPRESSIONLESS FACE",
         unified: "1F611",
@@ -11850,6 +11887,7 @@ module.exports = {
       char: "\ud83d\ude36",
       key: "no_mouth",
       keywords: ["no_mouth", "FACE WITHOUT MOUTH"],
+      category: "people",
       lib: {
         name: "FACE WITHOUT MOUTH",
         unified: "1F636",
@@ -12109,6 +12147,7 @@ module.exports = {
       char: "\ud83d\ude0f",
       key: "smirk",
       keywords: ["smirk", "SMIRKING FACE"],
+      category: "people",
       lib: {
         name: "SMIRKING FACE",
         unified: "1F60F",
@@ -12372,6 +12411,7 @@ module.exports = {
       char: "\ud83d\ude12",
       key: "unamused",
       keywords: ["unamused", "UNAMUSED FACE"],
+      category: "people",
       lib: {
         name: "UNAMUSED FACE",
         unified: "1F612",
@@ -12786,6 +12826,7 @@ module.exports = {
       char: "\ud83d\ude44",
       key: "face_with_rolling_eyes",
       keywords: ["face_with_rolling_eyes", "FACE WITH ROLLING EYES"],
+      category: "people",
       lib: {
         name: "FACE WITH ROLLING EYES",
         unified: "1F644",
@@ -13052,6 +13093,7 @@ module.exports = {
       char: "\ud83d\ude2c",
       key: "grimacing",
       keywords: ["grimacing", "GRIMACING FACE"],
+      category: "people",
       lib: {
         name: "GRIMACING FACE",
         unified: "1F62C",
@@ -13498,6 +13540,7 @@ module.exports = {
       char: "\ud83e\udd25",
       key: "lying_face",
       keywords: ["lying_face", "LYING FACE"],
+      category: "people",
       lib: {
         name: "LYING FACE",
         unified: "1F925",
@@ -13732,6 +13775,7 @@ module.exports = {
       char: "\ud83d\ude0c",
       key: "relieved",
       keywords: ["relieved", "RELIEVED FACE"],
+      category: "people",
       lib: {
         name: "RELIEVED FACE",
         unified: "1F60C",
@@ -13962,6 +14006,7 @@ module.exports = {
       char: "\ud83d\ude14",
       key: "pensive",
       keywords: ["pensive", "PENSIVE FACE"],
+      category: "people",
       lib: {
         name: "PENSIVE FACE",
         unified: "1F614",
@@ -14279,6 +14324,7 @@ module.exports = {
       char: "\ud83d\ude2a",
       key: "sleepy",
       keywords: ["sleepy", "SLEEPY FACE"],
+      category: "people",
       lib: {
         name: "SLEEPY FACE",
         unified: "1F62A",
@@ -14509,6 +14555,7 @@ module.exports = {
       char: "\ud83e\udd24",
       key: "drooling_face",
       keywords: ["drooling_face", "DROOLING FACE"],
+      category: "people",
       lib: {
         name: "DROOLING FACE",
         unified: "1F924",
@@ -14768,6 +14815,7 @@ module.exports = {
       char: "\ud83d\ude34",
       key: "sleeping",
       keywords: ["sleeping", "SLEEPING FACE"],
+      category: "people",
       lib: {
         name: "SLEEPING FACE",
         unified: "1F634",
@@ -15026,6 +15074,7 @@ module.exports = {
       char: "\ud83d\ude37",
       key: "mask",
       keywords: ["mask", "FACE WITH MEDICAL MASK"],
+      category: "people",
       lib: {
         name: "FACE WITH MEDICAL MASK",
         unified: "1F637",
@@ -15343,6 +15392,7 @@ module.exports = {
       char: "\ud83e\udd12",
       key: "face_with_thermometer",
       keywords: ["face_with_thermometer", "FACE WITH THERMOMETER"],
+      category: "people",
       lib: {
         name: "FACE WITH THERMOMETER",
         unified: "1F912",
@@ -15573,6 +15623,7 @@ module.exports = {
       char: "\ud83e\udd15",
       key: "face_with_head_bandage",
       keywords: ["face_with_head_bandage", "FACE WITH HEAD-BANDAGE"],
+      category: "people",
       lib: {
         name: "FACE WITH HEAD-BANDAGE",
         unified: "1F915",
@@ -15832,6 +15883,7 @@ module.exports = {
       char: "\ud83e\udd22",
       key: "nauseated_face",
       keywords: ["nauseated_face", "NAUSEATED FACE"],
+      category: "people",
       lib: {
         name: "NAUSEATED FACE",
         unified: "1F922",
@@ -16124,6 +16176,7 @@ module.exports = {
       char: "\ud83e\udd2e",
       key: "face_vomiting",
       keywords: ["face_vomiting", "FACE WITH OPEN MOUTH VOMITING"],
+      category: "people",
       lib: {
         name: "FACE WITH OPEN MOUTH VOMITING",
         unified: "1F92E",
@@ -16384,6 +16437,7 @@ module.exports = {
       char: "\ud83e\udd27",
       key: "sneezing_face",
       keywords: ["sneezing_face", "SNEEZING FACE"],
+      category: "people",
       lib: {
         name: "SNEEZING FACE",
         unified: "1F927",
@@ -16795,6 +16849,7 @@ module.exports = {
       char: "\ud83e\udd75",
       key: "hot_face",
       keywords: ["hot_face", "OVERHEATED FACE"],
+      category: "people",
       lib: {
         name: "OVERHEATED FACE",
         unified: "1F975",
@@ -17116,6 +17171,7 @@ module.exports = {
       char: "\ud83e\udd76",
       key: "cold_face",
       keywords: ["cold_face", "FREEZING FACE"],
+      category: "people",
       lib: {
         name: "FREEZING FACE",
         unified: "1F976",
@@ -17347,6 +17403,7 @@ module.exports = {
       char: "\ud83e\udd74",
       key: "woozy_face",
       keywords: ["woozy_face", "FACE WITH UNEVEN EYES AND WAVY MOUTH"],
+      category: "people",
       lib: {
         name: "FACE WITH UNEVEN EYES AND WAVY MOUTH",
         unified: "1F974",
@@ -17639,6 +17696,7 @@ module.exports = {
       char: "\ud83d\ude35",
       key: "dizzy_face",
       keywords: ["dizzy_face", "DIZZY FACE"],
+      category: "people",
       lib: {
         name: "DIZZY FACE",
         unified: "1F635",
@@ -18018,6 +18076,7 @@ module.exports = {
       char: "\ud83e\udd2f",
       key: "exploding_head",
       keywords: ["exploding_head", "SHOCKED FACE WITH EXPLODING HEAD"],
+      category: "people",
       lib: {
         name: "SHOCKED FACE WITH EXPLODING HEAD",
         unified: "1F92F",
@@ -18249,6 +18308,7 @@ module.exports = {
       char: "\ud83e\udd20",
       key: "face_with_cowboy_hat",
       keywords: ["face_with_cowboy_hat", "FACE WITH COWBOY HAT"],
+      category: "people",
       lib: {
         name: "FACE WITH COWBOY HAT",
         unified: "1F920",
@@ -18573,6 +18633,7 @@ module.exports = {
       char: "\ud83e\udd73",
       key: "partying_face",
       keywords: ["partying_face", "FACE WITH PARTY HORN AND PARTY HAT"],
+      category: "people",
       lib: {
         name: "FACE WITH PARTY HORN AND PARTY HAT",
         unified: "1F973",
@@ -18923,6 +18984,7 @@ module.exports = {
       char: "\ud83e\udd78",
       key: "disguised_face",
       keywords: ["disguised_face", "DISGUISED FACE"],
+      category: "people",
       lib: {
         name: "DISGUISED FACE",
         unified: "1F978",
@@ -19244,6 +19306,7 @@ module.exports = {
       char: "\ud83d\ude0e",
       key: "sunglasses",
       keywords: ["sunglasses", "SMILING FACE WITH SUNGLASSES"],
+      category: "people",
       lib: {
         name: "SMILING FACE WITH SUNGLASSES",
         unified: "1F60E",
@@ -19565,6 +19628,7 @@ module.exports = {
       char: "\ud83e\udd13",
       key: "nerd_face",
       keywords: ["nerd_face", "NERD FACE"],
+      category: "people",
       lib: {
         name: "NERD FACE",
         unified: "1F913",
@@ -19944,6 +20008,7 @@ module.exports = {
       char: "\ud83e\uddd0",
       key: "face_with_monocle",
       keywords: ["face_with_monocle", "FACE WITH MONOCLE"],
+      category: "people",
       lib: {
         name: "FACE WITH MONOCLE",
         unified: "1F9D0",
@@ -20207,6 +20272,7 @@ module.exports = {
       char: "\ud83d\ude15",
       key: "confused",
       keywords: ["confused", "CONFUSED FACE"],
+      category: "people",
       lib: {
         name: "CONFUSED FACE",
         unified: "1F615",
@@ -20409,6 +20475,7 @@ module.exports = {
       char: "\ud83d\ude1f",
       key: "worried",
       keywords: ["worried", "WORRIED FACE"],
+      category: "people",
       lib: {
         name: "WORRIED FACE",
         unified: "1F61F",
@@ -20820,6 +20887,7 @@ module.exports = {
       char: "\ud83d\ude41",
       key: "slightly_frowning_face",
       keywords: ["slightly_frowning_face", "SLIGHTLY FROWNING FACE"],
+      category: "people",
       lib: {
         name: "SLIGHTLY FROWNING FACE",
         unified: "1F641",
@@ -21228,6 +21296,7 @@ module.exports = {
       char: "\u2639\ufe0f",
       key: "white_frowning_face",
       keywords: ["white_frowning_face", "FROWNING FACE"],
+      category: "people",
       lib: {
         name: "FROWNING FACE",
         unified: "2639-FE0F",
@@ -21491,6 +21560,7 @@ module.exports = {
       char: "\ud83d\ude2e",
       key: "open_mouth",
       keywords: ["open_mouth", "FACE WITH OPEN MOUTH"],
+      category: "people",
       lib: {
         name: "FACE WITH OPEN MOUTH",
         unified: "1F62E",
@@ -21693,6 +21763,7 @@ module.exports = {
       char: "\ud83d\ude2f",
       key: "hushed",
       keywords: ["hushed", "HUSHED FACE"],
+      category: "people",
       lib: {
         name: "HUSHED FACE",
         unified: "1F62F",
@@ -22104,6 +22175,7 @@ module.exports = {
       char: "\ud83d\ude32",
       key: "astonished",
       keywords: ["astonished", "ASTONISHED FACE"],
+      category: "people",
       lib: {
         name: "ASTONISHED FACE",
         unified: "1F632",
@@ -22335,6 +22407,7 @@ module.exports = {
       char: "\ud83d\ude33",
       key: "flushed",
       keywords: ["flushed", "FLUSHED FACE"],
+      category: "people",
       lib: {
         name: "FLUSHED FACE",
         unified: "1F633",
@@ -22833,6 +22906,7 @@ module.exports = {
       char: "\ud83e\udd7a",
       key: "pleading_face",
       keywords: ["pleading_face", "FACE WITH PLEADING EYES"],
+      category: "people",
       lib: {
         name: "FACE WITH PLEADING EYES",
         unified: "1F97A",
@@ -23100,6 +23174,7 @@ module.exports = {
       char: "\ud83d\ude26",
       key: "frowning",
       keywords: ["frowning", "FROWNING FACE WITH OPEN MOUTH"],
+      category: "people",
       lib: {
         name: "FROWNING FACE WITH OPEN MOUTH",
         unified: "1F626",
@@ -23335,6 +23410,7 @@ module.exports = {
       char: "\ud83d\ude27",
       key: "anguished",
       keywords: ["anguished", "ANGUISHED FACE"],
+      category: "people",
       lib: {
         name: "ANGUISHED FACE",
         unified: "1F627",
@@ -23746,6 +23822,7 @@ module.exports = {
       char: "\ud83d\ude28",
       key: "fearful",
       keywords: ["fearful", "FEARFUL FACE"],
+      category: "people",
       lib: {
         name: "FEARFUL FACE",
         unified: "1F628",
@@ -24067,6 +24144,7 @@ module.exports = {
       char: "\ud83d\ude30",
       key: "cold_sweat",
       keywords: ["cold_sweat", "FACE WITH OPEN MOUTH AND COLD SWEAT"],
+      category: "people",
       lib: {
         name: "FACE WITH OPEN MOUTH AND COLD SWEAT",
         unified: "1F630",
@@ -24298,6 +24376,7 @@ module.exports = {
       char: "\ud83d\ude25",
       key: "disappointed_relieved",
       keywords: ["disappointed_relieved", "DISAPPOINTED BUT RELIEVED FACE"],
+      category: "people",
       lib: {
         name: "DISAPPOINTED BUT RELIEVED FACE",
         unified: "1F625",
@@ -24532,6 +24611,7 @@ module.exports = {
       char: "\ud83d\ude22",
       key: "cry",
       keywords: ["cry", "CRYING FACE"],
+      category: "people",
       lib: {
         name: "CRYING FACE",
         unified: "1F622",
@@ -24856,6 +24936,7 @@ module.exports = {
       char: "\ud83d\ude2d",
       key: "sob",
       keywords: ["sob", "LOUDLY CRYING FACE"],
+      category: "people",
       lib: {
         name: "LOUDLY CRYING FACE",
         unified: "1F62D",
@@ -25120,6 +25201,7 @@ module.exports = {
       char: "\ud83d\ude31",
       key: "scream",
       keywords: ["scream", "FACE SCREAMING IN FEAR"],
+      category: "people",
       lib: {
         name: "FACE SCREAMING IN FEAR",
         unified: "1F631",
@@ -25380,6 +25462,7 @@ module.exports = {
       char: "\ud83d\ude16",
       key: "confounded",
       keywords: ["confounded", "CONFOUNDED FACE"],
+      category: "people",
       lib: {
         name: "CONFOUNDED FACE",
         unified: "1F616",
@@ -25733,6 +25816,7 @@ module.exports = {
       char: "\ud83d\ude23",
       key: "persevere",
       keywords: ["persevere", "PERSEVERING FACE"],
+      category: "people",
       lib: {
         name: "PERSEVERING FACE",
         unified: "1F623",
@@ -25997,6 +26081,7 @@ module.exports = {
       char: "\ud83d\ude1e",
       key: "disappointed",
       keywords: ["disappointed", "DISAPPOINTED FACE"],
+      category: "people",
       lib: {
         name: "DISAPPOINTED FACE",
         unified: "1F61E",
@@ -26286,6 +26371,7 @@ module.exports = {
       char: "\ud83d\ude13",
       key: "sweat",
       keywords: ["sweat", "FACE WITH COLD SWEAT"],
+      category: "people",
       lib: {
         name: "FACE WITH COLD SWEAT",
         unified: "1F613",
@@ -26520,6 +26606,7 @@ module.exports = {
       char: "\ud83d\ude29",
       key: "weary",
       keywords: ["weary", "WEARY FACE"],
+      category: "people",
       lib: {
         name: "WEARY FACE",
         unified: "1F629",
@@ -26842,6 +26929,7 @@ module.exports = {
       char: "\ud83d\ude2b",
       key: "tired_face",
       keywords: ["tired_face", "TIRED FACE"],
+      category: "people",
       lib: {
         name: "TIRED FACE",
         unified: "1F62B",
@@ -27163,6 +27251,7 @@ module.exports = {
       char: "\ud83e\udd71",
       key: "yawning_face",
       keywords: ["yawning_face", "YAWNING FACE"],
+      category: "people",
       lib: {
         name: "YAWNING FACE",
         unified: "1F971",
@@ -27336,6 +27425,7 @@ module.exports = {
       char: "\ud83d\ude24",
       key: "triumph",
       keywords: ["triumph", "FACE WITH LOOK OF TRIUMPH"],
+      category: "people",
       lib: {
         name: "FACE WITH LOOK OF TRIUMPH",
         unified: "1F624",
@@ -27600,6 +27690,7 @@ module.exports = {
       char: "\ud83d\ude21",
       key: "rage",
       keywords: ["rage", "POUTING FACE"],
+      category: "people",
       lib: {
         name: "POUTING FACE",
         unified: "1F621",
@@ -27921,6 +28012,7 @@ module.exports = {
       char: "\ud83d\ude20",
       key: "angry",
       keywords: ["angry", "ANGRY FACE"],
+      category: "people",
       lib: {
         name: "ANGRY FACE",
         unified: "1F620",
@@ -28304,6 +28396,7 @@ module.exports = {
         "face_with_symbols_on_mouth",
         "SERIOUS FACE WITH SYMBOLS COVERING MOUTH",
       ],
+      category: "people",
       lib: {
         name: "SERIOUS FACE WITH SYMBOLS COVERING MOUTH",
         unified: "1F92C",
@@ -28480,6 +28573,7 @@ module.exports = {
       char: "\ud83d\ude08",
       key: "smiling_imp",
       keywords: ["smiling_imp", "SMILING FACE WITH HORNS"],
+      category: "people",
       lib: {
         name: "SMILING FACE WITH HORNS",
         unified: "1F608",
@@ -28624,6 +28718,7 @@ module.exports = {
       char: "\ud83d\udc7f",
       key: "imp",
       keywords: ["imp", "IMP"],
+      category: "people",
       lib: {
         name: "IMP",
         unified: "1F47F",
@@ -28945,6 +29040,7 @@ module.exports = {
       char: "\ud83d\udc80",
       key: "skull",
       keywords: ["skull", "SKULL"],
+      category: "people",
       lib: {
         name: "SKULL",
         unified: "1F480",
@@ -29386,6 +29482,7 @@ module.exports = {
       char: "\u2620\ufe0f",
       key: "skull_and_crossbones",
       keywords: ["skull_and_crossbones", "SKULL AND CROSSBONES"],
+      category: "people",
       lib: {
         name: "SKULL AND CROSSBONES",
         unified: "2620-FE0F",
@@ -29501,6 +29598,7 @@ module.exports = {
       char: "\ud83d\udca9",
       key: "hankey",
       keywords: ["hankey", "PILE OF POO"],
+      category: "people",
       lib: {
         name: "PILE OF POO",
         unified: "1F4A9",
@@ -29793,6 +29891,7 @@ module.exports = {
       char: "\ud83e\udd21",
       key: "clown_face",
       keywords: ["clown_face", "CLOWN FACE"],
+      category: "people",
       lib: {
         name: "CLOWN FACE",
         unified: "1F921",
@@ -30027,6 +30126,7 @@ module.exports = {
       char: "\ud83d\udc79",
       key: "japanese_ogre",
       keywords: ["japanese_ogre", "JAPANESE OGRE"],
+      category: "people",
       lib: {
         name: "JAPANESE OGRE",
         unified: "1F479",
@@ -30287,6 +30387,7 @@ module.exports = {
       char: "\ud83d\udc7a",
       key: "japanese_goblin",
       keywords: ["japanese_goblin", "JAPANESE GOBLIN"],
+      category: "people",
       lib: {
         name: "JAPANESE GOBLIN",
         unified: "1F47A",
@@ -30580,6 +30681,7 @@ module.exports = {
       char: "\ud83d\udc7b",
       key: "ghost",
       keywords: ["ghost", "GHOST"],
+      category: "people",
       lib: {
         name: "GHOST",
         unified: "1F47B",
@@ -30872,6 +30974,7 @@ module.exports = {
       char: "\ud83d\udc7d",
       key: "alien",
       keywords: ["alien", "EXTRATERRESTRIAL ALIEN"],
+      category: "people",
       lib: {
         name: "EXTRATERRESTRIAL ALIEN",
         unified: "1F47D",
@@ -31045,6 +31148,7 @@ module.exports = {
       char: "\ud83d\udc7e",
       key: "space_invader",
       keywords: ["space_invader", "ALIEN MONSTER"],
+      category: "people",
       lib: {
         name: "ALIEN MONSTER",
         unified: "1F47E",
@@ -31424,6 +31528,7 @@ module.exports = {
       char: "\ud83e\udd16",
       key: "robot_face",
       keywords: ["robot_face", "ROBOT FACE"],
+      category: "people",
       lib: {
         name: "ROBOT FACE",
         unified: "1F916",
@@ -31687,6 +31792,7 @@ module.exports = {
       char: "\ud83d\ude3a",
       key: "smiley_cat",
       keywords: ["smiley_cat", "SMILING CAT FACE WITH OPEN MOUTH"],
+      category: "people",
       lib: {
         name: "SMILING CAT FACE WITH OPEN MOUTH",
         unified: "1F63A",
@@ -31860,6 +31966,7 @@ module.exports = {
       char: "\ud83d\ude38",
       key: "smile_cat",
       keywords: ["smile_cat", "GRINNING CAT FACE WITH SMILING EYES"],
+      category: "people",
       lib: {
         name: "GRINNING CAT FACE WITH SMILING EYES",
         unified: "1F638",
@@ -32094,6 +32201,7 @@ module.exports = {
       char: "\ud83d\ude39",
       key: "joy_cat",
       keywords: ["joy_cat", "CAT FACE WITH TEARS OF JOY"],
+      category: "people",
       lib: {
         name: "CAT FACE WITH TEARS OF JOY",
         unified: "1F639",
@@ -32447,6 +32555,7 @@ module.exports = {
       char: "\ud83d\ude3b",
       key: "heart_eyes_cat",
       keywords: ["heart_eyes_cat", "SMILING CAT FACE WITH HEART-SHAPED EYES"],
+      category: "people",
       lib: {
         name: "SMILING CAT FACE WITH HEART-SHAPED EYES",
         unified: "1F63B",
@@ -32829,6 +32938,7 @@ module.exports = {
       char: "\ud83d\ude3c",
       key: "smirk_cat",
       keywords: ["smirk_cat", "CAT FACE WITH WRY SMILE"],
+      category: "people",
       lib: {
         name: "CAT FACE WITH WRY SMILE",
         unified: "1F63C",
@@ -33121,6 +33231,7 @@ module.exports = {
       char: "\ud83d\ude3d",
       key: "kissing_cat",
       keywords: ["kissing_cat", "KISSING CAT FACE WITH CLOSED EYES"],
+      category: "people",
       lib: {
         name: "KISSING CAT FACE WITH CLOSED EYES",
         unified: "1F63D",
@@ -33352,6 +33463,7 @@ module.exports = {
       char: "\ud83d\ude40",
       key: "scream_cat",
       keywords: ["scream_cat", "WEARY CAT FACE"],
+      category: "people",
       lib: {
         name: "WEARY CAT FACE",
         unified: "1F640",
@@ -33763,6 +33875,7 @@ module.exports = {
       char: "\ud83d\ude3f",
       key: "crying_cat_face",
       keywords: ["crying_cat_face", "CRYING CAT FACE"],
+      category: "people",
       lib: {
         name: "CRYING CAT FACE",
         unified: "1F63F",
@@ -34026,6 +34139,7 @@ module.exports = {
       char: "\ud83d\ude3e",
       key: "pouting_cat",
       keywords: ["pouting_cat", "POUTING CAT FACE"],
+      category: "people",
       lib: {
         name: "POUTING CAT FACE",
         unified: "1F63E",
@@ -34199,6 +34313,7 @@ module.exports = {
       char: "\ud83d\ude48",
       key: "see_no_evil",
       keywords: ["see_no_evil", "SEE-NO-EVIL MONKEY"],
+      category: "people",
       lib: {
         name: "SEE-NO-EVIL MONKEY",
         unified: "1F648",
@@ -34581,6 +34696,7 @@ module.exports = {
       char: "\ud83d\ude49",
       key: "hear_no_evil",
       keywords: ["hear_no_evil", "HEAR-NO-EVIL MONKEY"],
+      category: "people",
       lib: {
         name: "HEAR-NO-EVIL MONKEY",
         unified: "1F649",
@@ -34873,6 +34989,7 @@ module.exports = {
       char: "\ud83d\ude4a",
       key: "speak_no_evil",
       keywords: ["speak_no_evil", "SPEAK-NO-EVIL MONKEY"],
+      category: "people",
       lib: {
         name: "SPEAK-NO-EVIL MONKEY",
         unified: "1F64A",
@@ -35017,6 +35134,7 @@ module.exports = {
       char: "\ud83d\udc8b",
       key: "kiss",
       keywords: ["kiss", "KISS MARK"],
+      category: "people",
       lib: {
         name: "KISS MARK",
         unified: "1F48B",
@@ -35399,6 +35517,7 @@ module.exports = {
       char: "\ud83d\udc8c",
       key: "love_letter",
       keywords: ["love_letter", "LOVE LETTER"],
+      category: "people",
       lib: {
         name: "LOVE LETTER",
         unified: "1F48C",
@@ -35720,6 +35839,7 @@ module.exports = {
       char: "\ud83d\udc98",
       key: "cupid",
       keywords: ["cupid", "HEART WITH ARROW"],
+      category: "people",
       lib: {
         name: "HEART WITH ARROW",
         unified: "1F498",
@@ -35893,6 +36013,7 @@ module.exports = {
       char: "\ud83d\udc9d",
       key: "gift_heart",
       keywords: ["gift_heart", "HEART WITH RIBBON"],
+      category: "people",
       lib: {
         name: "HEART WITH RIBBON",
         unified: "1F49D",
@@ -36304,6 +36425,7 @@ module.exports = {
       char: "\ud83d\udc96",
       key: "sparkling_heart",
       keywords: ["sparkling_heart", "SPARKLING HEART"],
+      category: "people",
       lib: {
         name: "SPARKLING HEART",
         unified: "1F496",
@@ -36596,6 +36718,7 @@ module.exports = {
       char: "\ud83d\udc97",
       key: "heartpulse",
       keywords: ["heartpulse", "GROWING HEART"],
+      category: "people",
       lib: {
         name: "GROWING HEART",
         unified: "1F497",
@@ -36769,6 +36892,7 @@ module.exports = {
       char: "\ud83d\udc93",
       key: "heartbeat",
       keywords: ["heartbeat", "BEATING HEART"],
+      category: "people",
       lib: {
         name: "BEATING HEART",
         unified: "1F493",
@@ -37209,6 +37333,7 @@ module.exports = {
       char: "\ud83d\udc9e",
       key: "revolving_hearts",
       keywords: ["revolving_hearts", "REVOLVING HEARTS"],
+      category: "people",
       lib: {
         name: "REVOLVING HEARTS",
         unified: "1F49E",
@@ -37501,6 +37626,7 @@ module.exports = {
       char: "\ud83d\udc95",
       key: "two_hearts",
       keywords: ["two_hearts", "TWO HEARTS"],
+      category: "people",
       lib: {
         name: "TWO HEARTS",
         unified: "1F495",
@@ -37703,6 +37829,7 @@ module.exports = {
       char: "\ud83d\udc9f",
       key: "heart_decoration",
       keywords: ["heart_decoration", "HEART DECORATION"],
+      category: "people",
       lib: {
         name: "HEART DECORATION",
         unified: "1F49F",
@@ -38143,6 +38270,7 @@ module.exports = {
       char: "\u2763\ufe0f",
       key: "heavy_heart_exclamation_mark_ornament",
       keywords: ["heavy_heart_exclamation_mark_ornament", "HEART EXCLAMATION"],
+      category: "people",
       lib: {
         name: "HEART EXCLAMATION",
         unified: "2763-FE0F",
@@ -38348,6 +38476,7 @@ module.exports = {
       char: "\ud83d\udc94",
       key: "broken_heart",
       keywords: ["broken_heart", "BROKEN HEART"],
+      category: "people",
       lib: {
         name: "BROKEN HEART",
         unified: "1F494",
@@ -38756,6 +38885,7 @@ module.exports = {
       char: "\u2764\ufe0f",
       key: "heart",
       keywords: ["heart", "HEAVY BLACK HEART"],
+      category: "people",
       lib: {
         name: "HEAVY BLACK HEART",
         unified: "2764-FE0F",
@@ -38990,6 +39120,7 @@ module.exports = {
       char: "\ud83e\udde1",
       key: "orange_heart",
       keywords: ["orange_heart", "ORANGE HEART"],
+      category: "people",
       lib: {
         name: "ORANGE HEART",
         unified: "1F9E1",
@@ -39195,6 +39326,7 @@ module.exports = {
       char: "\ud83d\udc9b",
       key: "yellow_heart",
       keywords: ["yellow_heart", "YELLOW HEART"],
+      category: "people",
       lib: {
         name: "YELLOW HEART",
         unified: "1F49B",
@@ -39397,6 +39529,7 @@ module.exports = {
       char: "\ud83d\udc9a",
       key: "green_heart",
       keywords: ["green_heart", "GREEN HEART"],
+      category: "people",
       lib: {
         name: "GREEN HEART",
         unified: "1F49A",
@@ -39750,6 +39883,7 @@ module.exports = {
       char: "\ud83d\udc99",
       key: "blue_heart",
       keywords: ["blue_heart", "BLUE HEART"],
+      category: "people",
       lib: {
         name: "BLUE HEART",
         unified: "1F499",
@@ -39984,6 +40118,7 @@ module.exports = {
       char: "\ud83d\udc9c",
       key: "purple_heart",
       keywords: ["purple_heart", "PURPLE HEART"],
+      category: "people",
       lib: {
         name: "PURPLE HEART",
         unified: "1F49C",
@@ -40215,6 +40350,7 @@ module.exports = {
       char: "\ud83e\udd0e",
       key: "brown_heart",
       keywords: ["brown_heart", "BROWN HEART"],
+      category: "people",
       lib: {
         name: "BROWN HEART",
         unified: "1F90E",
@@ -40539,6 +40675,7 @@ module.exports = {
       char: "\ud83d\udda4",
       key: "black_heart",
       keywords: ["black_heart", "BLACK HEART"],
+      category: "people",
       lib: {
         name: "BLACK HEART",
         unified: "1F5A4",
@@ -40831,6 +40968,7 @@ module.exports = {
       char: "\ud83e\udd0d",
       key: "white_heart",
       keywords: ["white_heart", "WHITE HEART"],
+      category: "people",
       lib: {
         name: "WHITE HEART",
         unified: "1F90D",
@@ -41300,6 +41438,7 @@ module.exports = {
       char: "\ud83d\udca2",
       key: "anger",
       keywords: ["anger", "ANGER SYMBOL"],
+      category: "people",
       lib: {
         name: "ANGER SYMBOL",
         unified: "1F4A2",
@@ -41563,6 +41702,7 @@ module.exports = {
       char: "\ud83d\udca5",
       key: "boom",
       keywords: ["boom", "COLLISION SYMBOL"],
+      category: "people",
       lib: {
         name: "COLLISION SYMBOL",
         unified: "1F4A5",
@@ -41707,6 +41847,7 @@ module.exports = {
       char: "\ud83d\udcab",
       key: "dizzy",
       keywords: ["dizzy", "DIZZY SYMBOL"],
+      category: "people",
       lib: {
         name: "DIZZY SYMBOL",
         unified: "1F4AB",
@@ -42031,6 +42172,7 @@ module.exports = {
       char: "\ud83d\udca6",
       key: "sweat_drops",
       keywords: ["sweat_drops", "SPLASHING SWEAT SYMBOL"],
+      category: "people",
       lib: {
         name: "SPLASHING SWEAT SYMBOL",
         unified: "1F4A6",
@@ -42265,6 +42407,7 @@ module.exports = {
       char: "\ud83d\udca8",
       key: "dash",
       keywords: ["dash", "DASH SYMBOL"],
+      category: "people",
       lib: {
         name: "DASH SYMBOL",
         unified: "1F4A8",
@@ -42467,6 +42610,7 @@ module.exports = {
       char: "\ud83d\udd73\ufe0f",
       key: "hole",
       keywords: ["hole", "HOLE"],
+      category: "people",
       lib: {
         name: "HOLE",
         unified: "1F573-FE0F",
@@ -42733,6 +42877,7 @@ module.exports = {
       char: "\ud83d\udca3",
       key: "bomb",
       keywords: ["bomb", "BOMB"],
+      category: "people",
       lib: {
         name: "BOMB",
         unified: "1F4A3",
@@ -42967,6 +43112,7 @@ module.exports = {
       char: "\ud83d\udcac",
       key: "speech_balloon",
       keywords: ["speech_balloon", "SPEECH BALLOON"],
+      category: "people",
       lib: {
         name: "SPEECH BALLOON",
         unified: "1F4AC",
@@ -43082,6 +43228,7 @@ module.exports = {
       char: "\ud83d\udc41\ufe0f\u200d\ud83d\udde8\ufe0f",
       key: "eye-in-speech-bubble",
       keywords: ["eye-in-speech-bubble", "EYE IN SPEECH BUBBLE"],
+      category: "people",
       lib: {
         name: "EYE IN SPEECH BUBBLE",
         unified: "1F441-FE0F-200D-1F5E8-FE0F",
@@ -43464,6 +43611,7 @@ module.exports = {
       char: "\ud83d\udde8\ufe0f",
       key: "left_speech_bubble",
       keywords: ["left_speech_bubble", "LEFT SPEECH BUBBLE"],
+      category: "people",
       lib: {
         name: "LEFT SPEECH BUBBLE",
         unified: "1F5E8-FE0F",
@@ -43698,6 +43846,7 @@ module.exports = {
       char: "\ud83d\uddef\ufe0f",
       key: "right_anger_bubble",
       keywords: ["right_anger_bubble", "RIGHT ANGER BUBBLE"],
+      category: "people",
       lib: {
         name: "RIGHT ANGER BUBBLE",
         unified: "1F5EF-FE0F",
@@ -43784,6 +43933,7 @@ module.exports = {
       char: "\ud83d\udcad",
       key: "thought_balloon",
       keywords: ["thought_balloon", "THOUGHT BALLOON"],
+      category: "people",
       lib: {
         name: "THOUGHT BALLOON",
         unified: "1F4AD",
@@ -44079,6 +44229,7 @@ module.exports = {
       char: "\ud83d\udca4",
       key: "zzz",
       keywords: ["zzz", "SLEEPING SYMBOL"],
+      category: "people",
       lib: {
         name: "SLEEPING SYMBOL",
         unified: "1F4A4",

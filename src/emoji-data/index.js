@@ -52,7 +52,7 @@ const category = [
   },
   {
     key: "people",
-    title: "Smileys & People",
+    title: "Smileys & Emotion",
   },
   {
     key: "animals_and_nature",
@@ -90,30 +90,30 @@ const categoryIndexMap = _(category)
   .value();
 
 // FOR RUNNING compile COMMENT BELOW CODE
-_.each(emojiSynonyms, (v, k) => {
-    emojiSynonyms[k] = _.uniq(
-        emojiSynonyms[k].concat(userInputEmojiSynonyms[k])
-    );
-});
+// _.each(emojiSynonyms, (v, k) => {
+//     emojiSynonyms[k] = _.uniq(
+//         emojiSynonyms[k].concat(userInputEmojiSynonyms[k])
+//     );
+// });
 
-const emojiMap = _(emojiLib)
-  .mapValues(
-    (v, k) =>
-      k +
-      " " +
-      v.keywords.map((v) => v.replace(/_/g, " ")).join(" ") +
-      (emojiSynonyms[k] || [])
-        .map((v) => {
-          v.replace(/_/g, " ");
-        })
-        .join(" ")
-  )
-  .invert()
-  .value();
+// const emojiMap = _(emojiLib)
+//   .mapValues(
+//     (v, k) =>
+//       k +
+//       " " +
+//       v.keywords.map((v) => v.replace(/_/g, " ")).join(" ") +
+//       (emojiSynonyms[k] || [])
+//         .map((v) => {
+//           v.replace(/_/g, " ");
+//         })
+//         .join(" ")
+//   )
+//   .invert()
+//   .value();
 // COMMENT OUT UNTIL HERE
 
 // FOR RUNNING compile UNCOMMENT THIS LINE
-// const emojiMap = {}
+const emojiMap = {}
 
 const emojiArray = _.values(emojiSynonyms);
 
