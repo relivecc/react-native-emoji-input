@@ -1,7 +1,7 @@
 module.exports = {
   category: [
     { key: "fue", title: "Frequently Used" },
-    { key: "people", title: "Smileys & People" },
+    { key: "people", title: "Smileys & Emotion" },
     { key: "animals_and_nature", title: "Animals & Nature" },
     { key: "food_and_drink", title: "Food & Drink" },
     { key: "activity", title: "Activities" },
@@ -12,7 +12,7 @@ module.exports = {
   ],
   categoryIndexMap: {
     fue: { key: "fue", title: "Frequently Used", idx: 0 },
-    people: { key: "people", title: "Smileys & People", idx: 1 },
+    people: { key: "people", title: "Smileys & Emotion", idx: 1 },
     animals_and_nature: {
       key: "animals_and_nature",
       title: "Animals & Nature",

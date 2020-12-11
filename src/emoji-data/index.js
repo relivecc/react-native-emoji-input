@@ -11,7 +11,7 @@ const filteredEmoji = _.filter(
 
 const categoryTitleToKey = {
   "Frequently Used": "fue",
-  "Smileys & People": "people",
+  "Smileys & Emotion": "people",
   "Animals & Nature": "animals_and_nature",
   "Food & Drink": "food_and_drink",
   Activities: "activity",
