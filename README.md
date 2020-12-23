@@ -20,6 +20,12 @@ If you make changes to the emoji synonyms files, you need to recompile the data 
 npx babel-node scripts/compile.js
 ```
 
+## Compiling
+
+```
+npx babel-node --presets @babel/preset-env scripts/compile.js
+```
+
 ## Default Props
 
 | Prop              | Description                      | type     |
