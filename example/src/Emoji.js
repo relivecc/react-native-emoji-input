@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { View, Text, TouchableOpacity, StyleSheet, Image } from 'react-native';
 import _ from 'lodash';
 
-const EMOJI_DATASOURCE_VERSION = '4.0.4';
+const EMOJI_DATASOURCE_VERSION = '6.0.0';
 
 class Emoji extends React.PureComponent {
     static propTypes = {
