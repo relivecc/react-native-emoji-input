@@ -404,7 +404,7 @@ class EmojiInput extends React.PureComponent {
     };
 
     _rowRenderer(type, data)  {
-        const { selectedEmoji, emojiFontSize, categoryLabelTextStyle } = this.props;
+        const { selectedEmoji, emojiFontSize, categoryLabelTextStyle, unsupportedEmojis } = this.props;
 
         switch (type) {
             case ViewTypes.CATEGORY:
@@ -419,6 +419,8 @@ class EmojiInput extends React.PureComponent {
                     </Text>
                 );
             case ViewTypes.EMOJI:
+                const useNative = unsupportedEmojis.indexOf(data.lib.unified) === -1;
+
                 return (
                     <Emoji
                         onPress={this.handleEmojiPress}
@@ -430,6 +432,7 @@ class EmojiInput extends React.PureComponent {
                             selectedEmoji === data.lib.unified
                         }
                         selectedBorderWidth={this.emojiSize}
+                        native={useNative}
                     />
                 );
         }
@@ -677,7 +680,7 @@ EmojiInput.defaultProps = {
     categoryFontSize: 20,
     resetSearch: false,
     filterFunctions: [],
-    renderAheadOffset: 1500
+    renderAheadOffset: 1500,
 };
 
 EmojiInput.propTypes = {
@@ -706,6 +709,7 @@ EmojiInput.propTypes = {
     filterFunctions: PropTypes.arrayOf(PropTypes.func),
     renderAheadOffset: PropTypes.number,
     selectedEmoji: PropTypes.string,
+    unsupportedEmojis: PropTypes.arrayOf(PropTypes.string).isRequired
 };
 
 const styles = {

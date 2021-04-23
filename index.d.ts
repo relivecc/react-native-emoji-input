@@ -21,6 +21,7 @@ interface Props {
     enableSearch?: boolean;
     renderAheadOffset?: number;
     selectedEmoji?: string;
+    unsupportedEmojis: string[];
 }
 
 export default class EmojiInput extends React.Component<Props> { }
